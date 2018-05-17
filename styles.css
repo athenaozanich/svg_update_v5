@@ -14,9 +14,8 @@ body {
   background: #e2e2c7;
   margin: 0 auto;
   height: 100%; /* new line */
-  border-right: 5px solid #898989;
-  border-left: 5px solid #898989;
-  box-shadow: 0px 5px 10px black; 
+  border: 5px solid #898989;
+  box-shadow: inset 0px 0px 20px 3px black; 
 }
 
 p {
@@ -41,6 +40,7 @@ header {
 }
 
 header nav {
+  margin:15px 25px;
   padding-bottom: 50px;
   text-align: left;
 }
@@ -70,4 +70,7 @@ footer {
 /*******************/
 .logo{
   width:140px;
+}
+.corgi{
+  width:170px;
 }
