@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: $beige;
+  background-image: $bg-tile;
+}
+
+#container {
+  max-width: 80%;
+  min-width: 375px;
+  background: #e2e2c7;
+  margin: 0 auto;
+  height: 100%; /* new line */
+  border: 5px solid $gray;
+  box-shadow: inset 0px 0px 20px 3px $black; 
+}
+
+
+
+header {
+  padding-top: 10px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}

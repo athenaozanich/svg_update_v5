@@ -1,0 +1,27 @@
+/**************************/
+/*       TYPOGRAPHY       */
+/**************************/
+@import url($font-url--google);
+body{
+	text-align: center;
+	font-family:$font-family--primary;
+	font-weight: 300;
+	color: $black;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+main h2 {
+  font-size: 28px;
+}
+h1{
+	display:block;
+	@include brk-pt {
+        display:none;
+    }
+}

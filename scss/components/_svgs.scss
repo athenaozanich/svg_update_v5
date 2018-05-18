@@ -1,0 +1,65 @@
+/*******************/
+/* SVG logo styles */
+/*******************/
+.logo{
+    width:$svg-width-s;
+    .st1{
+        display: none;
+        @include brk-pt {
+            display:block;
+        }
+    }
+    
+}
+.corgi{
+    width:$svg-width-m;
+}
+.nose_eyes{
+    fill:$black;
+}
+/*******************/
+/*   White Corgi   */
+/*******************/
+#white {
+
+    .body{
+        fill:$beige;
+    }
+    .snout{
+        fill:$gray;
+    }
+}
+/*******************/
+/*   Brown Corgi   */
+/*******************/
+#brown {
+
+    .body{
+        fill:$brown;
+    }
+    .snout{
+        fill:$white;
+    }
+}
+/*******************/
+/*    Grey Corgi   */
+/*******************/
+#grey{
+    .body{
+      fill:$gray;
+    }
+    .snout{
+      fill:$beige;
+    }
+} 
+/*******************/
+/*    Tan Corgi    */
+/*******************/
+#black{
+    .body{
+      fill:$jazzberry-tan;
+    }
+    .snout{
+      fill:$white;
+    }
+} 

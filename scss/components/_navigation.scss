@@ -1,0 +1,33 @@
+/**************************/
+/*       NAVIGATION       */
+/**************************/
+nav{
+	margin:15px 25px;
+	padding-bottom: 50px;
+	text-align: left;
+}
+nav li {
+	list-style: none;
+	display: inline-block;
+  margin-right: 20px;
+  cursor:pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: $turquoise;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+nav li .nav-svg,
+nav li a {
+  transition: .5s ease-in-out;
+}
+
+nav li:hover .nav-svg,
+nav li:hover a {
+  color: $brown;
+  fill:$brown;
+}
+

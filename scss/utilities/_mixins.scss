@@ -1,0 +1,6 @@
+@mixin brk-pt{
+  
+    @media #{$brkpoint-md} { 
+    	@content; 
+    }
+}
