@@ -8,7 +8,6 @@
   2. XHTML
   3. CSS3
   4. SASS
-  5. Client side Javascript
 
 ## Technologies and Techniques
   1. Chrome Dev Tools
