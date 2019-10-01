@@ -1,14 +1,13 @@
 # Information regarding this project repository
 
 ## Goals
-  The goal of this project is to display a solid understanding of how utilize javascript, HTML5 and CSS3 to implement a video player with video files that include format fallbacks for compatibility purposes. Additionally create a method for users to click the text transcript to jump to the appropriate time of the video. This project provided only a desktop mockup, leaving the design and development of the layout for screen sizes relevant to mobile and tablet devices on the student.
+  The goal of this project is to display a solid understanding of how utilize HTML5 and CSS3 to implement the addition of svgs for use in this project, display a grasp of how to manipulate them, as well as animate them for presentation purposes. This project provided a desktop anf tablet mockup, leaving the design and development of the layout for screen sizes relevant to mobile devices on the student.
 
 ## Languages
   1. HTML5
   2. XHTML
   3. CSS3
   4. SASS
-  5. Client side Javascript
 
 ## Technologies and Techniques
   1. Chrome Dev Tools
